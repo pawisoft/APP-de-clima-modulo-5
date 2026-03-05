@@ -1,0 +1,13 @@
+.weather-app__footer {
+  background-color: $color-secondary;
+  color: rgb(52, 15, 104);
+
+  a {
+    color: lighten(rgb(59, 136, 117), 20%);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

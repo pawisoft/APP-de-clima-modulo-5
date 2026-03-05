@@ -1,0 +1,112 @@
+.weather-app {
+  font-family: "Quicksand", sans-serif;
+  background-color: #e0f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('IQUIQUE2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: #e0f7fa url('IQUIQUE2.jpg') no-repeat center/cover;
+}
+.weather-app__header {
+  background-color: #0d6efd;
+  color: rgb(234, 252, 255);
+}
+.weather-app__content {
+  flex: 1;
+  padding: 1rem;
+}
+.weather-app__footer {
+  background-color: rgb(215.3278688525, 231.2295081967, 254.6721311475);
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.place-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+.place-card:hover {
+  transform: translateY(-5px);
+}
+.place-card__name {
+  font-family: 'Cause';
+  font-weight: bold;
+  color: #117575;
+}
+.place-card__temp {
+  font-size: 1.2rem;
+  color: #042555;
+}
+.place-card__icon {
+  font-size: 2rem;
+}
+.place-card--sunny {
+  background-color: #fff9c4;
+}
+.place-card--rainy {
+  background-color: #bbdefb;
+}
+.place-card .place-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+.place-card .place-card:hover {
+  transform: translateY(-5px);
+}
+.place-card .place-card__name {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  color: #117575;
+  margin-bottom: 0.5rem;
+}
+.place-card .place-card__temp {
+  font-size: 1.1rem;
+  color: #042555;
+}
+.place-card .place-card .btn {
+  background-color: #117575;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.place-card .place-card .btn:hover {
+  background-color: rgb(10.5298507463, 72.4701492537, 72.4701492537);
+}
+
+.weather-app__nav .nav-link {
+  color: white;
+  margin-left: 0.5rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+.weather-app__nav .nav-link:hover {
+  color: white;
+}
+.weather-app__nav .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.weather-app__footer {
+  background-color: #117575;
+  color: rgb(52, 15, 104);
+}
+.weather-app__footer a {
+  color: rgb(106.4461538462, 190.5538461538, 169.8);
+  text-decoration: none;
+}
+.weather-app__footer a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,50 @@
+.place-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &__name {
+    font-family: $font-title;
+    font-weight: bold;
+    color: $color-secondary;
+  }
+
+  &__temp {
+    font-size: 1.2rem;
+    color: $color-text;
+  }
+
+  &__icon {
+    font-size: 2rem;
+  }
+
+  // Modificadores
+  &--sunny {
+    background-color: #fff9c4;
+  }
+
+  &--rainy {
+    background-color: #bbdefb;
+  }
+
+  .place-card {
+  @include card-style;
+
+  &__name {
+    @include title-style($size: 1.2rem);
+  }
+
+  &__temp {
+    font-size: 1.1rem;
+    color: $color-text;
+  }
+
+  .btn {
+    @include button-style($bg-color: $color-secondary);
+  }
+}
+}

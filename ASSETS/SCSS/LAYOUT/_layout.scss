@@ -1,0 +1,30 @@
+.weather-app {
+  font-family: $font-main;
+  background-color: $color-background;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('IQUIQUE2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: $color-background url($bg-image) no-repeat center/cover;
+ 
+
+  &__header {
+    background-color: $color-primary;
+    color: rgb(234, 252, 255);
+  }
+
+  &__content {
+    flex: 1;
+    padding: $spacing-medium;
+  }
+
+  &__footer {
+    background-color: lighten($color-primary, 40%);
+    text-align: center;
+    padding: $spacing-small;
+    font-size: 0.9rem;
+  }
+}

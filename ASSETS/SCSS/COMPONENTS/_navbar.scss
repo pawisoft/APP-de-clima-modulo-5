@@ -1,0 +1,12 @@
+.weather-app__nav {
+  .nav-link {
+    color: white;
+    margin-left: $spacing-small;
+
+    &:hover {
+      color: lighten(white, 20%);
+    }
+    @include button-style($bg-color: transparent, $text-color: white);
+    padding: $spacing-small;
+  }
+}
